@@ -49,13 +49,16 @@ export default function Contact() {
             Have a project in mind or want to collaborate? Feel free to reach
             out. I'm always open to discussing new opportunities.
           </p>
-
           <div className="contact-info">
             <p>
-              <strong>Email:</strong> kirtanthakkar16@gmail.com
+              <strong>Email:</strong>{" "}
+              <a href="mailto:kirtanthakkar16@gmail.com">
+                kirtanthakkar16@gmail.com
+              </a>
             </p>
             <p>
-              <strong>Phone:</strong> +91 7778012416
+              <strong>Phone:</strong>{" "}
+              <a href="tel:+917778012416">+91 7778012416</a>
             </p>
           </div>
         </div>
