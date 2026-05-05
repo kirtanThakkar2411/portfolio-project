@@ -58,7 +58,7 @@ export default function Hero() {
             ))}
           </div>
 
-          <button className="btn-gradient">Subscribe</button>
+          {/* <button className="btn-gradient">Subscribe</button> */}
         </div>
 
         {/* SOCIAL */}

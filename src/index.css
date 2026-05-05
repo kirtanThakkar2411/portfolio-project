@@ -136,6 +136,8 @@ body {
   border: none;
   color: white;
   cursor: pointer;
+  width: 100%;
+  max-width: fit-content;
 }
 
 /* ===== GLOW ===== */
@@ -157,7 +159,9 @@ body {
     flex-direction: column;
     text-align: center;
   }
-
+  .hero-text .btn-gradient {
+    margin-bottom: 20px;
+  }
   .nav-links {
     display: none;
   }
@@ -499,6 +503,9 @@ body {
 @media (max-width: 500px) {
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+  .projects-section {
+    padding: 40px 10px;
   }
 }
 .contact-info {
